@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{20DA1D7A-7D1F-B57D-3446-FC6611F694B9}</ProjectGuid>
+    <ProjectGuid>{2880B273-6D3E-0DA3-7B00-F09C25C4046C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,14 +53,12 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Compile Include="Assets\Scripts\SpawnObject.cs" />
+    <Compile Include="Assets\Scripts\LevelGeneration.cs" />
+    <Compile Include="Assets\Scripts\RoomType.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SpawnObject.cs" />
-    <Compile Include="Assets\LevelGeneration.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />
+    <None Include="Assets\2D Dungeon PixelArt Tileset\Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

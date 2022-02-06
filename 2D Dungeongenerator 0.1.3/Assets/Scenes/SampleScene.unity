@@ -584,6 +584,9 @@ MonoBehaviour:
   minX: 30
   maxX: 50
   minY: 5
+  room:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!4 &1202405317
 Transform:
   m_ObjectHideFlags: 0
